@@ -1,0 +1,40 @@
+===============================================================================================
+===============================================================================================
+
+1. Write a short passage, describe what is Encapsulation in OOP. Illustrate it with
+an example of “Library (physical library where we go to borrow books)”.
+
+Encapsulation in OOP:
+
+Encapsulation is one of the fundamental principles of object-oriented programming (OOP), 
+which refers to bundling data (attributes) and methods (functions) that operate on that 
+data into a single unit, known as a class. This concept allows the data to be accessed 
+only through the defined methods, thus controlling and restricting access to the data. 
+
+Encapsulation helps in achieving data hiding, abstraction, and modularity, making the 
+code easier to understand, maintain, and reuse.
+
+Example: Library
+
+In a library system, encapsulation can be observed in the Book class. Each book object 
+encapsulates its data (such as title, author, ISBN) and behaviors (such as borrowing, 
+returning) within itself. Other classes or users cannot directly access or modify these 
+attributes; they can only do so through the defined methods. For example, the borrowBook() 
+method might decrease the available copies of a book, while the returnBook() method might 
+increase the available copies. This encapsulation ensures that the book data remains 
+consistent and protected from unauthorized access or modification.
+
+===============================================================================================
+===============================================================================================
+
+2. Provide an Exception example in the above Library illustration; describe it technically 
+what is the type of this Exception (e.g. Compile-Time Exceptions or Run-Time Exceptions). 
+Why it is essential in the Library system? What does it do?
+
+In the library system, an example of an exception could be a BookNotAvailableException 
+when a user tries to borrow a book that is not currently available. This is a runtime 
+exception because it occurs during the execution of the program. It is essential in the 
+library system to handle such exceptions to provide proper feedback to the user and maintain 
+the integrity of the system. By catching and handling this exception, the system can inform 
+the user about the unavailability of the book and suggest alternative options or actions. 
+Additionally, it prevents unexpected program termination and ensures a smooth user experience.
