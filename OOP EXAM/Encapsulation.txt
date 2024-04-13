@@ -1,0 +1,7 @@
+Encapsulation is one of the four fundamental principles of Object-Oriented Programming (OOP). 
+It refers to the bundling of data (attributes) and methods that act on that data into a single unit called an object. 
+This mechanism keeps the data safe from outside interference and misuse.
+
+In the context of a physical library, consider a Book class. 
+The data (or attributes) of the Book class could be title, author, ISBN, and isBorrowed. 
+The methods could be borrowBook(), returnBook(), getTitle(), getAuthor(), etc.
